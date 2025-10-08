@@ -1,0 +1,28 @@
+{"level":"info","message":"Hello from Acquisitions API!","service":"acquisitions-api"}
+{"level":"info","message":"Hello from Acquisitions API!","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [07/Oct/2025:09:50:21 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36\"","service":"acquisitions-api"}
+{"level":"info","message":"Hello from Acquisitions API!","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [07/Oct/2025:10:00:08 +0000] \"GET / HTTP/1.1\" 200 24 \"-\" \"PostmanRuntime/7.48.0\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [07/Oct/2025:10:00:24 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 200 10 \"-\" \"PostmanRuntime/7.48.0\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [07/Oct/2025:10:00:37 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 200 10 \"-\" \"PostmanRuntime/7.48.0\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [07/Oct/2025:10:00:50 +0000] \"POST /api/auth/sign-out HTTP/1.1\" 200 11 \"-\" \"PostmanRuntime/7.48.0\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [07/Oct/2025:10:01:12 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 200 10 \"-\" \"PostmanRuntime/7.48.0\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [07/Oct/2025:10:03:40 +0000] \"GET /health HTTP/1.1\" 200 41 \"-\" \"PostmanRuntime/7.48.0\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [07/Oct/2025:10:04:20 +0000] \"GET /health HTTP/1.1\" 200 54 \"-\" \"PostmanRuntime/7.48.0\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [07/Oct/2025:10:05:09 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"PostmanRuntime/7.48.0\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [07/Oct/2025:10:06:33 +0000] \"GET /api HTTP/1.1\" 200 42 \"-\" \"PostmanRuntime/7.48.0\"","service":"acquisitions-api"}
+{"level":"info","message":"User successfully registered: seunjay92@gmail.com","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [07/Oct/2025:11:13:45 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 201 116 \"-\" \"PostmanRuntime/7.48.0\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [07/Oct/2025:11:14:01 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 400 63 \"-\" \"PostmanRuntime/7.48.0\"","service":"acquisitions-api"}
+{"level":"info","message":"User successfully registered: seunjay92@gmail.com","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [07/Oct/2025:11:14:21 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 201 101 \"-\" \"PostmanRuntime/7.48.0\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [07/Oct/2025:11:14:34 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 400 91 \"-\" \"PostmanRuntime/7.48.0\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [07/Oct/2025:11:14:41 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 400 114 \"-\" \"PostmanRuntime/7.48.0\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [07/Oct/2025:11:14:57 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 400 165 \"-\" \"PostmanRuntime/7.48.0\"","service":"acquisitions-api"}
+{"level":"info","message":"User with email of oiza@gmail.com created successfully!","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [08/Oct/2025:05:23:10 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 201 353 \"-\" \"PostmanRuntime/7.48.0\"","service":"acquisitions-api"}
+{"level":"error","message":"Error creating a user  User already exists!","service":"acquisitions-api","stack":"Error: User already exists!\n    at createUser (file:///Users/oluwaseunjayeoba/Documents/acquisitions/src/services/auth.service.js:24:40)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async signUp (file:///Users/oluwaseunjayeoba/Documents/acquisitions/src/controllers/auth.controller.js:21:21)"}
+{"level":"error","message":"Sign up error  Error creating a user ","service":"acquisitions-api","stack":"Error: Error creating a user \n    at createUser (file:///Users/oluwaseunjayeoba/Documents/acquisitions/src/services/auth.service.js:48:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async signUp (file:///Users/oluwaseunjayeoba/Documents/acquisitions/src/controllers/auth.controller.js:21:21)"}
+{"level":"info","message":"::1 - - [08/Oct/2025:05:26:22 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 500 504 \"-\" \"PostmanRuntime/7.48.0\"","service":"acquisitions-api"}
+{"level":"info","message":"User with email of seunjay92@gmail.com created successfully!","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [08/Oct/2025:05:27:43 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 201 365 \"-\" \"PostmanRuntime/7.48.0\"","service":"acquisitions-api"}
